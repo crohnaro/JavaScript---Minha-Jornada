@@ -1,0 +1,24 @@
+
+.botaoMenu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.botaoMenu:hover{
+    font-weight:bold;
+    cursor: pointer;
+}
+.menuMobile.aberto{
+    left: 0;
+}
+.menuMobile {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 150px;
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+    transition: all 800ms ease;
+}
