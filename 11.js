@@ -11,3 +11,8 @@ let botaoPausar = document.querySelector('#botaoPausar')
 botaoPausar.onclick = function(){
     clearInterval(intervalo)
 }
+let botaoPausar = document.querySelector('#botaoPausar')
+
+botaoPausar.onclick = function(){
+    clearInterval(intervalo)
+}
