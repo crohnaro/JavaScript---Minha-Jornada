@@ -1,0 +1,10 @@
+#counter {
+    font-size: 30px;
+  }
+  .active-green {
+    background-color: green;
+  }
+
+  .active-red {
+    background-color: red;
+  }

@@ -1,0 +1,20 @@
+#div-cidades {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .visible {
+    display: block !important;
+  }
+
+  button {
+    margin-top: 50px;
+  }
+
+  .inputError {
+    border: 1px solid red;
+  }
+
+  .erro {
+    color: red;
+  }
