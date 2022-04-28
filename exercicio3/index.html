@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <form id="form-cadastro" action="gravarDados.html">
+    <div>
+      <label>
+        Estado
+        <select name="estado" id="select-estados">
+          <option value="">-- Selecione --</option>
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+        </select>
+        <span class="erro"></span>
+      </label>
+    </div>
+
+    <div id="div-cidades">
+      <label>
+        Cidades
+        <select name="cidade" id="select-cidades">          
+        </select>
+        <span class="erro"></span>
+      </label>
+    </div>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
