@@ -15,5 +15,5 @@ ancoras.forEach(function(elemento){
 let boxes = document.querySelectorAll('.box')
 
 boxes.forEach(function(box, index){
-    box.innerHTML = 'box' + (index + 1) // contando os índices
+    box.innerHTML = 'box' + (index + 1) // contando os índices.
 })
