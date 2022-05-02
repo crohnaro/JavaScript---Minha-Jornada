@@ -1,0 +1,19 @@
+/*
+
+GLOBAL
+LOCAL
+
+-O ESCOPO DETERMINA A VISIBILIDADE DE UMA VARIAVEL
+
+-AS FUNÇÕES NO JS CRIAM O SEU PROPRIO ESCOPO
+    - AS VARIAVEIS DE UMA FUNÇÃO NÃO SÃO ACESSIVEIS FORA DELA
+
+*/
+
+function teste(){
+    let a = 123
+}
+
+console.log(a)
+
+teste()
