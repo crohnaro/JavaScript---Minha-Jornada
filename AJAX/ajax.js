@@ -2,7 +2,7 @@
 
 AJAX - 2005
 
-Asynchronous Js and XML requests
+Asynchronous Js and XML requests.
 
 ROTAS
 
