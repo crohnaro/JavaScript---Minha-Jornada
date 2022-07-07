@@ -4,7 +4,7 @@ Arrow Functions
 
 ES6
 
-As funções de seta nos permitem escrever uma sintae de função mais curta
+As funções de seta nos permitem escrever uma sintaxe de função mais curta
 
 */
 
