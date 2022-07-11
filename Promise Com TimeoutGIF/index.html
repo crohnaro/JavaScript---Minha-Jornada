@@ -8,15 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="formCadastro" action="gravarDados.html">
-        <div>
-          <label>
-            <input type="text" name="nome" placeholder="Digite uma mensagem">
-            <span class="erro"></span>
-          </label>
-        </div>
-        <button type="submit">Enviar</button>
-        <img src="loading.gif" alt="">
-    </form>
+    <form id="formulario">
+        <input type="text" id="message" placeholder="Digite uma mensagem">
+        <button id="botao-enviar">Enviar</button>
+        <img src="loading.gif" width="20" class="spinner hidden" id="spinner">
+      </form>
+    
+      <div id="result"></div>
+
+    <script src="main.js"></script>
 </body>
 </html>

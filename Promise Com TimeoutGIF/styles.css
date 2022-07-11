@@ -4,7 +4,11 @@
     align-items: center;
 }
 
-img{
+.visible {
+    display: block;
+  }
+
+.hidden {
     display: none;
-    width: 30px;
 }
+

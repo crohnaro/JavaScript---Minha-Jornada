@@ -1,3 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .visible {
+      display: block;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <form id="formulario">
+    <input type="text" id="message" placeholder="Digite uma mensagem">
+    <button id="botao-enviar">Enviar</button>
+    <img src="loading.gif" width="20" class="spinner hidden" id="spinner">
+  </form>
+
+  <div id="result"></div>
+
+  <script>
     const formulario = document.querySelector('#formulario')
     const botaoEnviar = document.querySelector('#botao-enviar')
     const message = document.querySelector('#message')
@@ -25,3 +54,7 @@
         result.innerHTML = msg
       })
     }
+  </script>
+  
+</body>
+</html>
