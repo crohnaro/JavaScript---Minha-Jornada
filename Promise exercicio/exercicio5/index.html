@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    // crie uma função que retorne uma promise
+    // essa função deverá levar 10 segundos para ser resolvida com o método resolve()
+    // ela deve resolver com texto: 'Ok, promise resolvida!' 
+    // você deve exibr esse texto no console
+    function job() {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve('Ok, parece que funcionou!')
+        }, 10000)
+      })
+    }
+
+    job().then(msg => console.log(msg))
+  </script>
+  
+</body>
+</html>
