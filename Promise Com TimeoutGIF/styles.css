@@ -1,0 +1,10 @@
+#formCadastro{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    display: none;
+    width: 30px;
+}
