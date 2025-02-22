@@ -7,6 +7,8 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 
+
+
 <h2>JavaScript - Básico</h2>
 
 - [Condicionais](https://github.com/crohnaro/javascript-exercicios/tree/master/JavaScript%20B%C3%A1sico/Conte%C3%BAdo/Condicionais)
