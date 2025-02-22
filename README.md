@@ -1,6 +1,6 @@
 <p align="center">
   <h2 align="center">JavaScript - A Jornada</h2>
-  <p align="center">Repositorio que criei ao longo do meu tempo estudando JavaScript, o intuito é continuar alimentando para que a evolução seja constante!!!<p>
+  <p align="center">Repositorio que criei ao longo do meu tempo estudando JavaScript, o intuito é continuar alimentando para que a evolução seja constante!!!!!!<p>
   
 
 <br>
@@ -67,5 +67,20 @@
   - [Scope](https://github.com/crohnaro/javascript-exercicios/tree/master/JavaScript%20Avan%C3%A7ado/Conte%C3%BAdo/scope)
   - [Exercícios](https://github.com/crohnaro/javascript-exercicios/tree/master/JavaScript%20Avan%C3%A7ado/Exercicios)
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
